@@ -1,0 +1,60 @@
+html,
+body {
+  height: 100%;
+}
+
+.background {
+  background-image: url(https://beiz.jp/images_T/wallpaper/wallpaper_00002.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.my-name {
+  font-size: 100px;
+  color: black;
+  text-align: center;
+  padding: 200px 350px 0 350px;
+}
+
+.main-contents {
+  text-align: center;
+  font-size: 30px;
+}
+
+.main-content {
+  margin-right: 20px;
+}
+
+.count-game {
+  text-align: center;
+  margin: 80px 400px 0 400px;
+  font-size: 40px;
+  border: black solid 1px;
+}
+
+.game-title {
+  background-color: rgba(161, 223, 226, 0.5);
+}
+
+.display {
+  margin: 0 250px 0 250px;
+  border: red solid 5px;
+}
+
+.start-button {
+  background-color: bisque;
+  border: bisque solid 5px;
+  border-radius: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.start-button:hover {
+  color: red;
+}
+
+.start-button:active {
+  color: green;
+}
